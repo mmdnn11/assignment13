@@ -25,7 +25,8 @@ cd assignment13
 
 ### 2. Установка зависимостей
 ```bash
-pip install -r requirements.txt
+python3 -m pip --version
+
 ```
 
 ### 3. Обучение модели
