@@ -54,7 +54,8 @@ python3 -m uvicorn app:app --reload
 ```
 Используйте `curl` или Postman:
 ```bash
-curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{"feature1": 1.2, "feature2": 3.4, "feature3": 5.6}'
+curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{"sepal_length": 1.2, "sepal_width": 3.4, "petal_length": 5.6, "petal_width": 2.1}'
+
 ```
 
 ### 6. Запуск в Docker
