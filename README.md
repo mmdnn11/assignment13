@@ -74,5 +74,5 @@ python3 -m mlflow ui
 Затем откройте в браузере: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ## Автор
-Kutubaeva Madina Bakytkyzy
+Kutubaeva Madina 
 
