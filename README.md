@@ -46,9 +46,10 @@ python3 -m uvicorn app:app --reload
 Можно отправить POST-запрос с JSON-данными:
 ```json
 {
-  "feature1": 1.2,
-  "feature2": 3.4,
-  "feature3": 5.6
+  "sepal_length": 5.1,
+  "sepal_width": 3.5,
+  "petal_length": 1.4,
+  "petal_width": 0.2
 }
 ```
 Используйте `curl` или Postman:
