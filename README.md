@@ -67,7 +67,8 @@ docker run -p 8000:8000 random_forest_api
 ## Отслеживание экспериментов в MLflow
 Для просмотра метрик откройте MLflow UI:
 ```bash
-python3 -m mlflow --version
+python3 -m mlflow ui
+
 
 ```
 Затем откройте в браузере: [http://127.0.0.1:5000](http://127.0.0.1:5000)
