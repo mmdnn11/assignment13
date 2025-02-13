@@ -30,15 +30,16 @@ pip install -r requirements.txt
 
 ### 3. Обучение модели
 ```bash
-python train.py
+python3 train.py
 ```
 
 ### 4. Запуск FastAPI сервера
 ```bash
-uvicorn app:app --host 0.0.0.0 --port 8000
+python3 -m uvicorn app:app --reload
+
 ```
 
-После запуска сервер будет доступен по адресу: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+После запуска сервер будет доступен по адресу: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ### 5. Запрос к API
 Можно отправить POST-запрос с JSON-данными:
