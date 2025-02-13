@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/madinakutubayeva/random_forest_project/mlruns/567587934800126338/fd91e3193e4f485e8de7e8941b18f443/artifacts
+end_time: 1739469328706
+entry_point_name: ''
+experiment_id: '567587934800126338'
+lifecycle_stage: active
+run_id: fd91e3193e4f485e8de7e8941b18f443
+run_name: brawny-bug-33
+run_uuid: fd91e3193e4f485e8de7e8941b18f443
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739469326735
+status: 3
+tags: []
+user_id: madinakutubayeva
